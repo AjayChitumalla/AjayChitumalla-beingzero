@@ -5,7 +5,7 @@ app.use(express.static('frontend'))
 app.get('/', (req, res) =>  res.sendFile(__dirname+'/frontend/html/home.html'))
 //res.sendFile
 //res.json
-var student = {"name" : "Being Zero",
+var student = {"name" : "Ajay Chitumalla",
                "college" : "VNRVJIET",
                "regno": "112323232"}
 app.get('/login', (req, res) => res.send('login'))
